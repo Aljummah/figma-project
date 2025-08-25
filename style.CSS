@@ -99,6 +99,7 @@ strong{
 
 .blog{
 display: flex;
+justify-content: space-around;
 
 }
 .droite{
@@ -131,27 +132,40 @@ display: flex;
     border-radius: 30px;
 
 }
-
+.vedette{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: orangered;
+    border-radius: 30px;
+    align-items: center;
+    
+}
 
 .promo {
     background-color: black;
     color: white;
-    padding-top: 20px ;
+    padding-top: 50px ;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
     width: 1000px;
+    text-align:center;
 }
 
-.weah{
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+.bic{
+    color:white;
+    text-align: center;
+
 }
+
+
 
 .lampe{
     padding-top: 60px;
@@ -177,6 +191,11 @@ display: flex;
     margin-left: 100px;
     border-radius: 10px;
     border: 2px solid white;
+    text-align: center;
+    border:2px solid white;
+
+    
+    :10px
 }
 
 
@@ -431,10 +450,8 @@ align-items:
 .machine{
   color: white;
     position: absolue;
-    right: 0;
-    bottom:0;
-    width: 100%;
-    z-index: 10;
+    right:0;
+padding-right:40px;
     margin-top: auto;
 }
 .left{
@@ -453,3 +470,4 @@ align-items:
 
     background-color: orangered;
 }
+.footer
